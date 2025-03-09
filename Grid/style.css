@@ -1,0 +1,152 @@
+
+.it{   
+    justify-content: center;
+    background-color: aqua;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+ 
+}
+img{
+    border: 1px black solid;
+}
+
+img:hover{
+    transform: scale(1.03);
+}
+#container{
+    display: grid;
+    text-align: center;
+    background-color: aliceblue;
+    border: 3px black solid;
+}
+
+.ghorls{
+    display: grid;
+    grid-gap: 2px;
+    background-color: aliceblue;
+    grid-template-columns: 150px 100px 100px minmax(100px, 1fr);
+    grid-template-rows: 50px repeat(5, 150px) ;
+    grid-auto-rows: 100px;
+    grid-auto-flow: row;
+}
+
+.item-1{
+    border: 5px red solid;
+    align-content: center;
+    font-weight: bold;
+}
+
+.item-2{
+    border: 5px red solid;
+    align-content: center;
+    font-weight: bold;
+
+}
+
+.item-3{
+    border: 5px red solid;
+    align-content: center;
+    font-weight: bold;
+}
+
+
+.item-4{
+    border: 5px red solid;
+    font-weight: bold;
+
+}
+
+/* carmela */
+.item-5{
+    border: 5px blue solid;
+    padding: 10px;
+}
+.item-6{
+    border: 5px red solid;
+    align-content: center;
+}
+.item-7{
+    border: 5px red solid;
+    align-content: center;
+}
+.item-8{
+    border: 5px red solid;
+    align-content: center;
+}
+
+/* clint */
+.item-9{
+    border: 5px blue solid;
+    padding: 10px;
+}
+.item-10{
+    border: 5px red solid;
+    align-content: center;
+}
+.item-11{
+    border: 5px red solid;
+    align-content: center ;
+}
+.item-12{
+    border: 5px red solid;
+    align-content: center;
+}
+
+/* Rojien */
+.item-13{
+    border: 5px blue solid;
+    padding: 10px;
+    
+}
+.item-14{
+    border: 5px red solid;
+    align-content: center;
+}
+.item-15{
+    border: 5px red solid;
+    align-content: center;
+}
+.item-16{
+    border: 5px red solid;
+    align-content: center;
+}
+
+/* Billy */
+.item-17{
+    border: 5px blue solid;
+    padding: 10px;
+}
+.item-18{
+    border: 5px red solid;
+    align-content: center;
+}
+.item-19{
+    border: 5px red solid;
+    align-content: center;
+}
+.item-20{
+    border: 5px red solid;
+    align-content: center;
+}
+
+/* Vincent */
+.item-21{
+    border: 5px blue solid;
+    padding: 10px;
+}
+.item-22{
+    border: 5px red solid;
+    align-content: center;
+}
+.item-23{
+    border: 5px red solid;
+    align-content: center;
+}
+.item-24{
+    border: 5px red solid;
+    align-content: center;
+}
+
+
+
